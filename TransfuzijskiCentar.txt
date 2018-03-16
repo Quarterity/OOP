@@ -26,11 +26,9 @@ public:
 		datum += to_string(_godina);
 		return datum;
 	}
-	bool RazlikaDatumaTriMjeseca( Datum & dat)// Bolje rjeöenje bi bilo pretvoriti datume u dane pa izracunati razliku
+	bool RazlikaDatumaTriMjeseca( Datum & dat)// Bolje rje≈°enje bi bilo pretvoriti datume u dane pa izracunati razliku
 	{
-		//TODO:**Nepotpuno rjeöenje
-		*this = Datum(22, 11, 2016);
-		dat = Datum(28, 3, 2017);
+		//TODO:**Nepotpuno rje≈°enje
 		int razlikaMjeseci = abs(_mjesec - dat._mjesec);
 		if (_godina>dat._godina)//Ako je godina zahtjeva nastala prije godine donacije unos nije ispravan
 		{
@@ -437,9 +435,9 @@ void main() {
 	UZROKUJU RUNTIME ERROR CE BITI OZNACENO KAO "RE"
 	3. SPASAVAJTE PROJEKAT KAKO BI SE SPRIJECILO GUBLJENJE URADJENOG ZADATKA
 	4. PROGRAMSKI CODE SE TAKODJER NALAZI U FAJLU code.TXT
-	5. NAZIVI FUNKCIJA MORAJU BITI IDENTICNI ONIMA KOJI SU KORIäTENI U TESTNOM CODEU.OSTALE,
-	POMOCNE FUNKCIJE MOéETE IMENOVATI PO éELJI. TAKO–ER, MOéETE DODAVATI KOLIKO
-	éELITE TESTNIH PODATAKA
+	5. NAZIVI FUNKCIJA MORAJU BITI IDENTICNI ONIMA KOJI SU KORI≈†TENI U TESTNOM CODEU.OSTALE,
+	POMOCNE FUNKCIJE MO≈ΩETE IMENOVATI PO ≈ΩELJI. TAKO√êER, MO≈ΩETE DODAVATI KOLIKO
+	≈ΩELITE TESTNIH PODATAKA
 	****************************************************************************/
 	Datum dat_12_01_2018(12, 1, 2018), dat_01_02_2018(1, 2, 2018);
 	cout << dat_01_02_2018.ToString() << endl; //podrazumijevani separator je tacka	".", pa ispisuje 1.2.2018
